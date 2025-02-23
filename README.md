@@ -6,7 +6,7 @@ Este projeto é uma landing page. A página tem como objetivo apresentar o siste
 ## Seções da Página
 - **Header**: Contém o logotipo e o menu de navegação.
 - **Hero Section**: Apresenta o título principal e uma breve descrição do sistema.
-- **Funcionalidades**: Lista as principais funcionalidades do Valeria Agro ERP.
+- **Funcionalidades**: Lista as principais funcionalidades.
 - **Depoimentos**: Exibe depoimentos de clientes satisfeitos.
 - **Chamada para Ação**: Incentiva os visitantes a entrarem em contato ou se inscreverem para mais informações.
 - **Footer**: Contém informações de contato e links para as redes sociais.
