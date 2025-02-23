@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page - Analista em Agronegócio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="icon.png" type="image/png">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="/">
+                <img src="icon.png" alt="Home" class="logo-icon">
+            </a>
+            <h1>Analista em Agronegócio</h1>
+            <nav class="nav">
+                <button
+                  class="btn-menu"
+                  aria-label="Abrir Menu"
+                  aria-haspopup="true"
+                  aria-controls="menu"
+                  aria-expanded="false"
+                ><span class="hamburger"></span>
+                </button>
+
+                <ul class="menu nav-links" id="menu" role="menu">
+                  <li><a href="#sobre">Sobre</a></li>
+                  <li><a href="#servicos">Serviços</a></li>
+                  <li><a href="#contato">Contato</a></li>
+                </ul>
+              </nav>
+        </div>
+    </header>
+    <section id="hero">
+        <div class="video-background">
+            <video autoplay muted loop>
+                <source src="1.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+        </div>
+        <div class="container">
+            <h2>Consultoria Especializada em Agronegócio</h2>
+            <p>Transformando desafios em oportunidades para o seu negócio.</p>
+            <a href="#contato" class="btn">Entre em Contato</a>
+        </div>
+    </section>
+    <section id="sobre">
+        <div class="container">
+            <h2>Estratégia e Soluções</h2>
+            <p>Desenvolvemos projetos que descrevem e analisam operações das cadeias agrícolas, setores e produtos do agronegócio, apoiando grandes players do mercado como empresas de fertilizantes, sementes e defensivos, máquinas, bancos, logística e trading no planejamento e na tomada de decisão sobre as seguintes questões, entre outras:</p>
+            <div class="cards">
+                <div class="card">
+                    <p>Diversificação de negócios</p>
+                </div>
+                <div class="card">
+                    <p>Abertura ou fechamento de unidades</p>
+                </div>
+                <div class="card">
+                    <p>Estratégia comercial</p>
+                </div>
+                <div class="card">
+                    <p>Estratégias de suprimentos</p>
+                </div>
+                <div class="card">
+                    <p>Estratégia em logística</p>
+                </div>
+                <div class="card">
+                    <p>Lançamento de produtos</p>
+                </div>
+                <div class="card">
+                    <p>Casos de defesa da concorrência e disputas comerciais</p>
+                </div>
+                <div class="card">
+                    <p>Impactos de investimentos públicos em infraestrutura</p>
+                </div>
+                <div class="card">
+                    <p>Cenários de Longo Prazo.</p>
+                </div>
+            </div>
+            <p>Cada trabalho é determinado em conjunto com o cliente, de acordo com suas necessidades. Alguns exemplos do que fizemos nos últimos anos:</p>
+            <div class="cards">
+                <div class="card">
+                    <p>Viabilidade competitiva dos investimentos relacionados à ferrovias, hidrovias e portos</p>
+                </div>
+                <div class="card">
+                    <p>Dimensionamentos de mercados de fertilizantes por matérias primas, potenciais de produtos e estratégias de posicionamento competitivo</p>
+                </div>
+                <div class="card">
+                    <p>Viabilidades de investimentos em unidades de produção de insumos</p>
+                </div>
+                <div class="card">
+                    <p>Posicionamento de agências bancárias voltadas para o agronegócio</p>
+                </div>
+                <div class="card">
+                    <p>Políticas de relacionamento entre agentes da cadeia de sementes</p>
+                </div>
+                <div class="card">
+                    <p>Pareceres relacionados à biotecnologia, impactos de impostos, entre outros.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="servicos">
+        <div class="container">
+            <h2>Serviços</h2>
+            <div class="servicos-grid">
+                <div class="servico">
+                    <h3>Consultoria</h3>
+                    <p>Oferecemos consultoria especializada para otimizar processos produtivos, reduzir custos e aumentar a eficiência no agronegócio.</p>
+                </div>
+                <div class="servico">
+                    <h3>Planejamento</h3>
+                    <p>Desenvolvemos planos estratégicos personalizados para o crescimento sustentável e a competitividade do seu negócio no mercado agrícola.</p>
+                </div>
+                <div class="servico">
+                    <h3>Análise de Mercado</h3>
+                    <p>Realizamos análises detalhadas de mercado para identificar oportunidades, tendências e riscos, auxiliando na tomada de decisões informadas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy;Analista em Agronegócio. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <a href="#top" class="btn-top">
+        <img src="arrow-up.svg" alt="Voltar ao Topo" class="arrow-icon">
+    </a>
+    <div class="social-buttons">
+        <a href="https://www.whatsapp.com" target="_blank" class="social-btn whatsapp">
+            <img src="whatsapp.png" alt="WhatsApp">
+        </a>
+        <a href="https://www.instagram.com" target="_blank" class="social-btn instagram">
+            <img src="instagram.png" alt="Instagram">
+        </a>
+        <a href="https://www.facebook.com" target="_blank" class="social-btn facebook">
+            <img src="facebook.png" alt="Facebook">
+        </a>
+    </div>
+    <script>
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header')
+            header.classList.toggle('scrolled', window.scrollY > 0)
+
+            const sections = document.querySelectorAll('section');
+            const navLi = document.querySelectorAll('nav ul li a');
+
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (pageYOffset >= sectionTop - 60) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLi.forEach(li => {
+                li.classList.remove('active');
+                if (li.getAttribute('href').includes(current)) {
+                    li.classList.add('active');
+                }
+            });
+        });
+
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('open');
+            hamburger.classList.toggle('toggle');
+        });
+
+        document.addEventListener('click', (event) => {
+            if (!navLinks.contains(event.target) && !hamburger.contains(event.target)) {
+                navLinks.classList.remove('open');
+                hamburger.classList.remove('toggle');
+            }
+        });
+    </script>
+</body>
+</html>
